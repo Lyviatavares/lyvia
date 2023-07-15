@@ -1,0 +1,109 @@
+/* CSS Esterno */
+
+/* Estrutura base do css 
+
+SELETOR{
+    PROPRIEDAS: VALOR;
+}*/
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+ 
+}
+
+img {
+    /* display: block; */
+    /* A imagem é um elemento em linha e transformamos ele em bloco para tirar a margem bottom de todas as imagens */
+   align-items: center;
+   text-align: center;
+}
+
+
+#card {
+    /* Tamanho total da div = 340px da largura + 60px do padding */
+    background-color: #EEEEEE;
+    width: 340px;
+    padding: 30px;
+    /* espaçamento interno  */
+    border-radius: 10px;
+    text-align: center;
+
+    /* contralizar a div */
+    margin: 15px auto;
+}
+
+#header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #162C41;
+    font-size: 32px;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #2775A6;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    color: #666666;
+
+}
+
+.link {
+    background-color: #225C72;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* retira o sublinhado */
+    border-radius: 3px;
+    display: block;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* div */
+#footer {
+    margin-top: 30px;
+
+}
+
+/* links dentro do footer */
+#footer a {
+    color: #555555
+
+}
+
+.perfil{
+    /* Forma detalhada */
+    border-width: 5px;
+    border-style: solid;
+    border-color: #73B3D9;
+
+    /* Forma Abreviada:
+     border: 5 solid #73B3D9; */
+
+     border-radius: 50%;
+    
+
+ 
+}
+
+.footer a :hover{
+    color: #225C72;
+}
